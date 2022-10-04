@@ -22,19 +22,24 @@ def loop():
   #names = ["mary", "john", "david", "thomas", "janette"]
 
   #dictionaries
-  dic = {"key1": "a", "key2":"b", "key3":"c"}
+  #dic = {"key1": "a", "key2":"b", "key3":"c"}
 
   #for item in dic.items():
     #print(item)
-  for a,b in dic.items():
-    print(a,b)
+  #for a,b in dic.items():
+    #print(a,b)
 
     #while loops
-  coins = 30
-  while coins < 40:
-    print(f"I have {coins} coins")
-    coins += 1
-    
+  #coins = 30
+  #while coins < 40:
+    #print(f"I have {coins} coins")
+    #coins += 1
+
+  answer = "y" 
+  while answer =="y":
+    answer = input("do you want to continue(y/n)")
+  else:
+    print("thank you")
   #for name in names
     #if name.startswith("j")
       #print(f"this {name} starts with j"):
